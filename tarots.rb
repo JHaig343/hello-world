@@ -1,15 +1,20 @@
 
 #TODO: add array with Arcana cards
 
-major_arcana = nil
+ def major_arcana
+	 arcana = [ "The Fool", "The Magician", 
+	 
+ end
 
 
 
 def minor_arcana(suit)
 		card = 1 + rand(9)
-		return "Your card is a #{card} of #{suit} "
+		return "Your card is a #{card} of #{suit}"
 end
-chosen_suiot = nil
+chosen_suit = nil
+
+
 
 
 
